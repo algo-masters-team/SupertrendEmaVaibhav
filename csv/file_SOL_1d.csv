@@ -1,0 +1,54 @@
+,Start,End,Duration,Exposure Time [%],Equity Final [$],Equity Peak [$],Return [%],Buy & Hold Return [%],Return (Ann.) [%],Volatility (Ann.) [%],Sharpe Ratio,Sortino Ratio,Calmar Ratio,Max. Drawdown [%],Avg. Drawdown [%],Max. Drawdown Duration,Avg. Drawdown Duration,# Trades,Win Rate [%],Best Trade [%],Worst Trade [%],Avg. Trade [%],Max. Trade Duration,Avg. Trade Duration,Profit Factor,Expectancy [%],SQN,_strategy,_equity_curve,_trades
+0,2022-05-23,2022-12-08,199 days,0.0,10000000.0,10000000.0,0.0,-72.15781980882653,0.0,0.0,,,,-0.0,,,,0,,,,,,,,,,"BBRSIADXEMA(stlo=960,tkpr=1030,dema_var=50,multiplier=3)","                Equity  DrawdownPct  DrawdownDuration
+Date                                                 
+2022-05-23  10000000.0          0.0               NaN
+2022-05-24  10000000.0          0.0               NaN
+2022-05-25  10000000.0          0.0               NaN
+2022-05-26  10000000.0          0.0               NaN
+2022-05-27  10000000.0          0.0               NaN
+...                ...          ...               ...
+2022-12-04  10000000.0          0.0               NaN
+2022-12-05  10000000.0          0.0               NaN
+2022-12-06  10000000.0          0.0               NaN
+2022-12-07  10000000.0          0.0               NaN
+2022-12-08  10000000.0          0.0               NaN
+
+[200 rows x 3 columns]","Empty DataFrame
+Columns: [Size, EntryBar, ExitBar, EntryPrice, ExitPrice, PnL, ReturnPct, EntryTime, ExitTime, Duration, Validation_Set]
+Index: []"
+1,2022-12-09,2023-06-26,199 days,3.5000000000000004,8591604.592800004,10000000.0,-14.083954071999957,19.72038263428992,-24.197144870767072,6.281146488626827,0.0,0.0,0.0,-14.08395407199996,-14.08395407199996,91 days,91 days,5,0.0,-2.9518466573164925,-3.0000000000000027,-2.9903712432604146,1 days,1 days,0.0,-2.990369331463296,-48.57834805292315,"BBRSIADXEMA(stlo=960,tkpr=1030,dema_var=50,multiplier=2)","                  Equity  DrawdownPct DrawdownDuration
+Date                                                  
+2022-12-09  1.000000e+07      0.00000              NaT
+2022-12-10  1.000000e+07      0.00000              NaT
+2022-12-11  1.000000e+07      0.00000              NaT
+2022-12-12  1.000000e+07      0.00000              NaT
+2022-12-13  1.000000e+07      0.00000              NaT
+...                  ...          ...              ...
+2023-06-22  8.591605e+06      0.14084              NaT
+2023-06-23  8.591605e+06      0.14084              NaT
+2023-06-24  8.591605e+06      0.14084              NaT
+2023-06-25  8.591605e+06      0.14084              NaT
+2023-06-26  8.591605e+06      0.14084          91 days
+
+[200 rows x 3 columns]","     Size  EntryBar  ExitBar  EntryPrice  ExitPrice          PnL  ReturnPct  EntryTime   ExitTime Duration  Validation_Set
+0 -502260       109      109       19.91    20.5073 -299999.8980  -0.030000 2023-03-28 2023-03-28   0 days             850
+1 -453482       137      138       21.39    22.0214 -286328.5348  -0.029518 2023-04-25 2023-04-26   1 days             850
+2 -433011       147      147       21.74    22.3922 -282409.7742  -0.030000 2023-05-05 2023-05-05   0 days             850
+3 -416762       149      149       21.91    22.5673 -273937.6626  -0.030000 2023-05-07 2023-05-07   0 days             850
+4 -475178       181      182       18.64    19.1992 -265719.5376  -0.030000 2023-06-08 2023-06-09   1 days             850"
+2,2023-06-27,2024-01-12,199 days,0.5,10099999.868800001,10099999.868800001,0.9999986880000122,453.938665063139,1.832521332297099,1.3791264003254928,1.3287551683910908,inf,,-0.0,,,,1,100.0,1.000000000000023,1.000000000000023,1.000000000000023,0 days,0 days,,1.000000000000023,,"BBRSIADXEMA(stlo=960,tkpr=1010,dema_var=40,multiplier=2)","                  Equity  DrawdownPct  DrawdownDuration
+Date                                                   
+2023-06-27  1.000000e+07          0.0               NaN
+2023-06-28  1.000000e+07          0.0               NaN
+2023-06-29  1.000000e+07          0.0               NaN
+2023-06-30  1.000000e+07          0.0               NaN
+2023-07-01  1.000000e+07          0.0               NaN
+...                  ...          ...               ...
+2024-01-08  1.010000e+07          0.0               NaN
+2024-01-09  1.010000e+07          0.0               NaN
+2024-01-10  1.010000e+07          0.0               NaN
+2024-01-11  1.010000e+07          0.0               NaN
+2024-01-12  1.010000e+07          0.0               NaN
+
+[200 rows x 3 columns]","     Size  EntryBar  ExitBar  EntryPrice  ExitPrice         PnL  ReturnPct  EntryTime   ExitTime Duration  Validation_Set
+0  493096        95       95       20.28    20.4828  99999.8688       0.01 2023-09-30 2023-09-30   0 days            1050"
